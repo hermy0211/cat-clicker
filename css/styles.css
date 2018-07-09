@@ -1,0 +1,53 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.title,
+.click-counter,
+.images {
+  width: 100%;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 5px;
+}
+
+.description {
+  margin-top: 5px;
+}
+
+.counter-text {
+  font-size: 2em;
+}
+
+.counter {
+  color: purple;
+  font-weight: 700;
+}
+
+.images {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.individual-image {
+  margin: 10px;
+  width: 40%;
+}
+
+.cat-image {
+  width: 100%;
+}
+
+.cat-image:hover {
+  cursor: pointer;
+}
+
+.image-title {
+  width: 100%;
+}

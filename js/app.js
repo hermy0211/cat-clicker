@@ -15,7 +15,7 @@ function loadCat(index) {
   image.innerHTML = "";
   let cat = document.createElement('span');
   cat.classList = "cat-image";
-  cat.innerHTML = `\<img src=\"${catUrls[index]}\" alt=\"${catNames[i]}\" class=\"cat-image\"\>`;
+  cat.innerHTML = `\<img src=\"${catUrls[index]}\" alt=\"${catNames[index]}\" class=\"cat-image\"\>`;
   image.appendChild(cat);
 
   // Show image title
@@ -34,6 +34,8 @@ function loadCat(index) {
     counterText.textContent = counter[index];
   }, false);
 }
+
+loadCat(0);
 
 // Add cats to sidebar
 for (i=0; i<numCats; i++) {

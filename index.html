@@ -28,8 +28,26 @@
         <p class="counter-text">You have clicked on this cat <span class="counter">0</span> times!</p>
       </div>
       <div class="image">
-        <img class="cat-image"></img>
         <p class="image-title"></p>
+        <img class="cat-image"></img>
+      </div>
+      <div class="admin">
+        <input type="button" name="admin" value="Admin" class="admin-button">
+        <form class="form">
+          <span class="input-area">
+            <span class="input-label">Name</span>
+            <input type="text" name="Name" class="input-box name">
+          </span>
+          <span class="input-area">
+            <span class="input-label">Image</span>
+            <input type="text" name="Image" class="input-box url">
+          </span>
+          <span class="input-area">
+            <span class="input-label">Clicks</span>
+            <input type="text" name="Clicks" class="input-box clicks">
+          </span>
+          <button type="button" name="submit" class="submit-button">Submit</button>
+        </form>
       </div>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
